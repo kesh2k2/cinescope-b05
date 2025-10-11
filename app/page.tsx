@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 export default function Home() {
-          
+          const greet= "Hello World!"
   return (
 
 
@@ -18,6 +18,7 @@ export default function Home() {
 
         <ol className="font-mono list-inside list-decimal text-sm/6 text-center sm:text-left">
           <li>
+            {greet}
           </li>
           <li className="tracking-[-.01em]">
             Save and see your changes instantly.
